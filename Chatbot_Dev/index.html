@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Cardio-Guardian ChatBot</title>
+</head>
+<body>
+    <div class="chat-container">
+        <img src="/image.png" alt="Chatbot Image" class="logo">
+        <div id="chatbox"></div>
+        <form id="chat-form">
+            <input type="text" id="message" autocomplete="off" placeholder="Ask a question..."/>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const chatbox = document.getElementById('chatbox');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const message = document.getElementById('message').value;
+            const userHtml = `<div class="user-message">${message}</div>`;
+            chatbox.innerHTML += userHtml;
+            
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `message=${message}`
+            });
+            
+            const data = await response.json();
+            const botHtml = `<div class="bot-message">${data.response}</div>`;
+            chatbox.innerHTML += botHtml;
+            document.getElementById('message').value = '';
+        });
+    </script>
+</body>
+</html>
