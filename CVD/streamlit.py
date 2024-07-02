@@ -24,7 +24,7 @@ with open('CVD/cvd_intents.json') as json_file:
 # Load pre-trained model and supporting files
 words = pickle.load(open('CVD/cvd_words.pkl', 'rb'))
 classes = pickle.load(open('CVD/cvd_classes.pkl', 'rb'))
-model = load_model('CVD/cvd_chatbotmodel.h5')
+model = load_model('CVD/new_cvd_chatbotmodel.h5')  # Use the re-saved model
 
 # Load BERT tokenizer and model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -92,7 +92,7 @@ def minDis(s1, s2, n, m, dp):
 # Streamlit app
 url = 'https://i.ytimg.com/vi/qJq5hA4pnOk/maxresdefault.jpg'
 st.image(url, width=750)
-st.title("Cvd Diseases Chat-Bot")
+st.title("Cardio-Guardian Chat-Bot")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
