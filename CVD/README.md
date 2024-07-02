@@ -1,6 +1,6 @@
 ## Cardio-Guardian Chat-Bot
 
-![Chatbot Demo 1](https://res.cloudinary.com/dbisqdemp/image/upload/v1719953875/Chatbot_Demo_1_wlqsgm.png)
+![Chatbot Demo 1](https://i.ytimg.com/vi/qJq5hA4pnOk/maxresdefault.jpg)
 ![Chatbot Demo 2](https://res.cloudinary.com/dbisqdemp/image/upload/v1719953874/Chatbot_Demo_2_jhxvwh.png)
 
 
