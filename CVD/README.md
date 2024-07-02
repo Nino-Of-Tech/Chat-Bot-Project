@@ -1,8 +1,9 @@
-## Cardio-Guardian Chat-Bot
+# Cardio-Guardian Chat-Bot
 
-![Chatbot Demo 1](https://i.ytimg.com/vi/qJq5hA4pnOk/maxresdefault.jpg)
-![Chatbot Demo 2](https://res.cloudinary.com/dbisqdemp/image/upload/v1719953874/Chatbot_Demo_2_jhxvwh.png)
-
+<p align="center">
+  <img src="https://i.ytimg.com/vi/qJq5hA4pnOk/maxresdefault.jpg" alt="Chatbot Demo 1" width="45%">
+  <img src="https://res.cloudinary.com/dbisqdemp/image/upload/v1719953874/Chatbot_Demo_2_jhxvwh.png" alt="Chatbot Demo 2" width="45%">
+</p>
 
 - This bot is designed to help users understand the various Cardio Vascular Diseases(CVD) and their symptoms, causes, prevention and treatment.
 - The bot is designed to be user friendly and interactive.
