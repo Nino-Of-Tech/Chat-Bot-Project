@@ -23,6 +23,11 @@
 - Streamlit
 
 ## How to run the bot
+
+#### To access the chatbot on Streamlit, click on this <a href="https://cardioguardian2.streamlit.app/" target="_blank">link</a>.
+
+#### To run locally: 
+
 - Clone the repository
 - Navigate to the directory where the repository is cloned
 - Set up a virtual environment by running the following command in the terminal:
@@ -47,5 +52,3 @@
   ```
   streamlit run streamlit.py
   ```
-
- #### To access the chatbot on Streamlit, click on this <a href="https://cardioguardian2.streamlit.app/" target="_blank">link</a>.
