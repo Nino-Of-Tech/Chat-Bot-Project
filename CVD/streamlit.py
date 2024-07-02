@@ -24,7 +24,7 @@ with open('CVD/cvd_intents.json') as json_file:
 # Load pre-trained model and supporting files
 words = pickle.load(open('CVD/cvd_words.pkl', 'rb'))
 classes = pickle.load(open('CVD/cvd_classes.pkl', 'rb'))
-model = load_model('CVD/new_cvd_chatbotmodel.h5')  # Use the re-saved model
+model = load_model('CVD/cvd_chatbotmodel.h5')  # Use the re-saved model
 
 # Load BERT tokenizer and model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
