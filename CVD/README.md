@@ -1,7 +1,7 @@
 # Cardio-Guardian Chat-Bot
 
 <p align="center">
-  <img src="https://i.ytimg.com/vi/qJq5hA4pnOk/maxresdefault.jpg" alt="Chatbot Demo 1" width="30%">
+  <img src="https://i.ytimg.com/vi/qJq5hA4pnOk/maxresdefault.jpg" alt="Chatbot Demo 1" width="45%">
   <img src="https://res.cloudinary.com/dbisqdemp/image/upload/v1719953874/Chatbot_Demo_2_jhxvwh.png" alt="Chatbot Demo 2" width="45%">
 </p>
 
