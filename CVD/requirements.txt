@@ -6,3 +6,4 @@ streamlit-chat
 transformers
 tensorflow
 streamlit
+tf-keras
