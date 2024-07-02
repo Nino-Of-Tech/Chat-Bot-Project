@@ -18,8 +18,8 @@ nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
 # Load intents JSON file
-with open('cvd_intents.json') as json_file:
-    intents = json.load(json_file)
+with open('CVD/cvd_intents.json') as json_file:
+    intents = json.load(json_file) 
 
 # Load pre-trained model and supporting files
 words = pickle.load(open('cvd_words.pkl', 'rb'))
