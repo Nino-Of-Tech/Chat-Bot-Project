@@ -1,4 +1,9 @@
-## Cardio Vascular Diseases(CVD) Bot
+## Cardio-Guardian Chat-Bot
+
+![Chatbot Demo 1](images/Chatbot Demo 1.png)
+![Chatbot Demo 2](images/Chatbot Demo 2.png)
+
+
 - This bot is designed to help users understand the various Cardio Vascular Diseases(CVD) and their symptoms, causes, prevention and treatment.
 - The bot is designed to be user friendly and interactive.
 
@@ -41,3 +46,5 @@
   ```
   streamlit run streamlit.py
   ```
+
+ #### To access the chatbot on Streamlit, click on this <a href="https://cardioguardian2.streamlit.app/" target="_blank">link</a>.
